@@ -2,6 +2,7 @@ package com.kiraitami.randomclimaterpg;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
@@ -12,6 +13,7 @@ import androidx.appcompat.app.AppCompatViewInflater;
 
 import org.w3c.dom.Text;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -93,8 +95,6 @@ public class MainActivity extends AppCompatActivity{
         weatherList.add(0, new Weather("Deserto Gelado",
                 -50,20,40,10,60,30, 20,  80));
 
-
-
         List<String> spinnerArray = new ArrayList<String>();
         for(int i = 0; i<weatherList.size(); i++) {
             spinnerArray.add(weatherList.get(i).name);
@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity{
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
                 this, R.layout.support_simple_spinner_dropdown_item, spinnerArray
         );
+
         adapter.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
         Spinner sItems = (Spinner) findViewById(R.id.spnLocation);
         sItems.setAdapter(adapter);
@@ -126,12 +127,12 @@ public class MainActivity extends AppCompatActivity{
         Spinner spnLocation = findViewById(R.id.spnLocation);
         Spinner spnSeason = findViewById(R.id.spnSeason);
         Switch swtNight = findViewById(R.id.swtNight);
-
         TextView text = findViewById(R.id.txtDescription);
 
         //0 - Spring / 1 - Summer / 2 - Fall / 3 - Winter
         int seasonId = spnSeason.getSelectedItemPosition();
 
+        //Location Variables
         float minTemperature = weatherList.get(spnLocation.getSelectedItemPosition()).minTemperature;
         float maxTemperature = weatherList.get(spnLocation.getSelectedItemPosition()).maxTemperature;
         float tempModifier = weatherList.get(spnLocation.getSelectedItemPosition()).tempModifier;
@@ -141,20 +142,15 @@ public class MainActivity extends AppCompatActivity{
         float winterPrecipitation = weatherList.get(spnLocation.getSelectedItemPosition()).winterPrecipitation;
         int windMaxSpeed = weatherList.get(spnLocation.getSelectedItemPosition()).windMaxSpeed;
 
-        float temperature;
-        float precipitation;
-        int windSpeed;
-
         //To avoid errors
         if (minTemperature+tempModifier > maxTemperature) minTemperature = maxTemperature - (tempModifier+2);
 
         if(windMaxSpeed < 0) windMaxSpeed = 1;
 
         //Setting Variables
+        float precipitation = (new Random().nextFloat())*400;
 
-        precipitation = (new Random().nextFloat())*400;
-
-        //Verify if it's raining and sets max and min temperature for each season
+            //Verify if it's raining and sets max and min temperature for each season
         switch (seasonId) {
             case 0:
                 //text.setText("é Primavera");
@@ -228,630 +224,102 @@ public class MainActivity extends AppCompatActivity{
                 break;
         }
 
-        //If it's night, it will be colder.
-        if(swtNight.isChecked())
-        {
+            //If it's night, it will be colder.
+        if(swtNight.isChecked()) {
             maxTemperature -= (maxTemperature - minTemperature)/4;
         }
-        else
-        {
+        else {
             minTemperature -= (maxTemperature - minTemperature)/4;
         }
 
-        temperature = 0;
-        windSpeed = 0;
+        float temperature = 0;
+        int windSpeed = 0;
+
         for(int i = 0; i<5 ; i++){
             temperature += ((new Random().nextFloat())*(maxTemperature-minTemperature))+minTemperature;
-            windSpeed += (new Random().nextInt())*windMaxSpeed;
+            windSpeed += (new Random().nextInt(windMaxSpeed));
         }
         temperature = temperature/5;
         windSpeed = windSpeed/5;
 
-        //It will change layout
+        int modNight;       // 0-Night      1-Day
+        int modRain;        // 0-No Rain    1-Light Rain    2-Heavy Rain
+        int modWinds;       // 0-No Winds   1-Light Wind    2-Medium Wind  3-Heavy Rain
+        int modTemperature; // 0- -40-      1- -20~0        2-0~10         3-11~18     4- 19~28     5- 29~34    6- 35+
+
         if(swtNight.isChecked()) {
-            if(precipitation == 0) {
-                //No rain
-                if(windSpeed < 14){
-                    //light winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else if(windSpeed < 32){
-                    //medium winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else if(windSpeed < 44){
-                    //heavy winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else {
-                    //storm winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-            }
-
-            if(precipitation == 1) {
-                //No rain
-                if(windSpeed < 14){
-                    //light winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else if(windSpeed < 32){
-                    //medium winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else if(windSpeed < 44){
-                    //heavy winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else {
-                    //storm winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-            }
-
-            if(precipitation == 2) {
-                //No rain
-                if(windSpeed < 14){
-                    //light winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else if(windSpeed < 32){
-                    //medium winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else if(windSpeed < 44){
-                    //heavy winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else {
-                    //storm winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-            }
+            modNight = 0;
         }
         else {
-            if(precipitation == 0) {
-                //No rain
-                if(windSpeed < 14){
-                    //light winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else if(windSpeed < 32){
-                    //medium winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else if(windSpeed < 44){
-                    //heavy winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else {
-                    //storm winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-            }
-
-            if(precipitation == 1) {
-                //No rain
-                if(windSpeed < 14){
-                    //light winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else if(windSpeed < 32){
-                    //medium winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else if(windSpeed < 44){
-                    //heavy winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else {
-                    //storm winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-            }
-
-            if(precipitation == 2) {
-                //No rain
-                if(windSpeed < 14){
-                    //light winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else if(windSpeed < 32){
-                    //medium winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else if(windSpeed < 44){
-                    //heavy winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-                else {
-                    //storm winds
-                    if(temperature < -20){
-                        text.setText("");
-                    }
-                    else if(temperature < 0){
-                        text.setText("");
-                    }
-                    else if(temperature < 10){
-                        text.setText("");
-                    }
-                    else if(temperature < 20){
-                        text.setText("");
-                    }
-                    else if(temperature < 28){
-                        text.setText("");
-                    }
-                    else if(temperature < 34){
-                        text.setText("");
-                    }
-                    else {
-                        text.setText("");
-                    }
-                }
-            }
+            modNight = 1;
         }
 
+        if(precipitation == 0){
+            modRain = 0;
+        }else if(precipitation == 1){
+            modRain = 1;
+        } else {
+            modRain = 2;
+        }
+
+        if(windSpeed < 14){
+            modWinds = 0;
+        } else if(windSpeed < 34){
+            modWinds = 1;
+        } else if(windSpeed < 44){
+            modWinds = 2;
+        } else{
+            modWinds = 3;
+        }
+
+        if(temperature < -20){
+            modTemperature = 0;
+        } else if(temperature <0){
+            modTemperature = 1;
+        } else if(temperature <10){
+            modTemperature = 2;
+        } else if(temperature <20){
+            modTemperature = 3;
+        } else if(temperature <28){
+            modTemperature = 4;
+        } else if(temperature <34){
+            modTemperature = 5;
+        } else {
+            modTemperature = 6;
+        }
+
+        int stringid = modNight*84+modRain*28+modWinds*7+modTemperature+1;
+        String stringname = "weather_";
+        String stringIDString = "";
+
+        if(stringid < 100) {
+            stringIDString+="0";
+            if(stringid < 10){
+                stringIDString+="0";
+            }
+        }
+        stringIDString += Integer.toString(stringid);
+        stringname = stringname+stringIDString;
+
+        text.setText("error: unexpected condition.");
+
+        String weather = getResources().getString(getStringIdentifier(stringname));
+        DecimalFormat df = new DecimalFormat("0.0");
+
+        text.setText(weather+"\n\nTemperatura: "+df.format(temperature)+"°C\nVentos: "+windSpeed+" Km/h");
+
+        //text.setText("Está uma noite congelante, o fato do vento estar leve, e de não estar nevando não torna menos desagradável a dor da queimação pelo frio extremo. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida. O céu está limpo e consegue observar as estrelas sem dificuldades.\n\nTemperatura: "+temperature+"°C\nVentos: "+windSpeed+" Km/h");
         //text.setText("Temperatura: " + temperature + " /nSecond Line: "+ precipitation);
 
     }
+
+
+    private int getStringIdentifier(String aString) {
+        String packageName = this.getPackageName();
+        int resId = getResources().getIdentifier(aString, "string", packageName);
+        return resId;
+    }
+
 }
+
+
