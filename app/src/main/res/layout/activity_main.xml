@@ -22,7 +22,7 @@
         android:layout_width="275dp"
         android:layout_height="40dp"
         android:layout_marginTop="32dp"
-        app:layout_constraintEnd_toStartOf="@+id/btnAddLocation"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,14 +31,15 @@
         android:layout_width="275dp"
         android:layout_height="40dp"
         android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/btnAddLocation"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spnLocation" />
 
     <EditText
         android:id="@+id/txtDescription"
         android:layout_width="322dp"
-        android:layout_height="200dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
         android:layout_marginBottom="32dp"
         android:clickable="false"
         android:editable="false"
@@ -50,18 +51,8 @@
         android:inputType="textMultiLine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btnAddLocation"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
-        android:text="+"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChangeWeather" />
 
     <Switch
         android:id="@+id/swtNight"

@@ -308,9 +308,6 @@ public class MainActivity extends AppCompatActivity{
 
         text.setText(weather+"\n\nTemperatura: "+df.format(temperature)+"°C\nVentos: "+windSpeed+" Km/h");
 
-        //text.setText("Está uma noite congelante, o fato do vento estar leve, e de não estar nevando não torna menos desagradável a dor da queimação pelo frio extremo. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida. O céu está limpo e consegue observar as estrelas sem dificuldades.\n\nTemperatura: "+temperature+"°C\nVentos: "+windSpeed+" Km/h");
-        //text.setText("Temperatura: " + temperature + " /nSecond Line: "+ precipitation);
-
     }
 
 

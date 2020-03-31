@@ -29,30 +29,30 @@
     <string name="weather_021">A noite está muito quente. O céu não oferece sinais de que vai chover, e os fortes ventos que passam quebrando algumas árvores parecem ser o principal alivio para reduzir a temperatura corporal. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
     <!--Storm Winds-->
     <string name="weather_022">A noite está horrível, a pele resseca a cada segundo pela temperatura e os pulmões machucados por respirar não são o único problema. Os ventos fortes quase impedem um humano comum de se locomover, tanto é a sua força. Pessoas pequenas podem ser arrastadas pelos ventos, assim como algumas pedras ou partes de construções. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
-    <string name="weather_023">023</string>
-    <string name="weather_024">024</string>
-    <string name="weather_025">025</string>
-    <string name="weather_026">026</string>
-    <string name="weather_027">027</string>
-    <string name="weather_028">028</string>
+    <string name="weather_023">O frio absurdo é intensificado pelos fortes ventos que passam derrubando árvores e arrastando seres vivos. A soma desses fatores torna muito difícil caminhar, e torna o ambiente muito hostil para a sobrevivência humana. O céu não possui nuvens de chuva.</string>
+    <string name="weather_024">Está bastante frio e os ventos estão fortes demais para se caminhar livremente, o vento carrega pequenos objetos e cria pequenos tornados. O céu não possui nuvens de chuva.</string>
+    <string name="weather_025">Está frio e os fortes ventos são destrutivos por onde passam. No céu não se observa nuvens de chuva.</string>
+    <string name="weather_026">O clima está ameno, apesar dos fortes ventos que destroem tudo por onde passam. As nuvens se formam e se desfazem em minutos.</string>
+    <string name="weather_027">A noite está quente e a tempestade causada pelos ventos são destrutivas, é dificil manter os olhos abertos. Não há sinais de chuvas.</string>
+    <string name="weather_028">O calor está horrível e a forte tempestada causada pelos ventos não parece que vai cessar. O céu não dá sinais de chuva e com o calor atual, um humano pode desmaiar em alguns minutos.</string>
 
     <!--Light Rain-->
     <!--Light Winds-->
-    <string name="weather_029">Está uma noite congelante, o fato do vento estar leve, e de não estar nevando não torna menos desagradável a dor da queimação pelo frio extremo. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida. O céu está limpo e consegue observar as estrelas sem dificuldades.</string>
-    <string name="weather_030">A noite está bem gelada, o céu está limpo e pode-se observar as estrelas sem dificuldades. Ainda assim, o vento leve que passa é o suficiente para machucar a pele em uma temperatura tão baixa.</string>
-    <string name="weather_031">A noite está bem fria, mas o céu limpo e a falta de vento ajuda a não ficar tão desconfortável estar aqui.</string>
-    <string name="weather_032">A noite está fria, mas em um nível agradável quando se está agasalhado. O céu está limpo e o vento passa de leve, sem trazer problemas.</string>
-    <string name="weather_033">A noite está agradável. O céu está limpo e o vento leve torna tudo muito bom.</string>
-    <string name="weather_034">A noite está quente. O céu não dá sinais de que vai chover tão já, e a falta de vento torna o ambiente ainda mais abafado e quente.</string>
-    <string name="weather_035">A noite está muito quente. O céu não dá sinais de que vai chover tão já, e a falta de vento torna o ambiente levemente complicado para respirar, usar roupas inadequadas podem levar você a desmaiar de calor.</string>
+    <string name="weather_029">A noite extremamente gélida dá os sinais de cair seus primeiros flocos de neve, o vento está leve, o que tornaria a noite bonita, se a temperatura não machucasse a pele. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_030">A noite está bem gelada, os flocos de neve são levados levemente pelo vento, a pele fica ressecada fácilmente em uma temperatura tão baixa.</string>
+    <string name="weather_031">As temperaturas estão bem baixas, e os flocos de neve caem gentilmente, tornando-a fria e bonita.</string>
+    <string name="weather_032">A noite está fria, mas em um nível agradável quando se está agasalhado. A chuva leve parece que vai persistir pelas próximas horas.</string>
+    <string name="weather_033">A noite está agradável. A chuva leve e os ventos torna tudo muito bom.</string>
+    <string name="weather_034">A noite está quente. Uma chuva fraca está caindo, mas ao invés de refrescar, ela parece deixar tudo ainda mais abafado, e a falta de vento intensifica isso.</string>
+    <string name="weather_035">A noite está muito quente e a falta de vento torna o ambiente levemente complicado para respirar, uma chuva leve cai. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
     <!--Medium Winds-->
-    <string name="weather_036">Está uma noite congelante, e a pele ressecada pela temperatura é machucada pelos ventos constantes. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
-    <string name="weather_037">A noite está bem gelada, o céu está limpo e pode-se observar as estrelas sem dificuldades. Os ventos que passam deixam uma sensação de queimadura em uma temperatura tão baixa.</string>
-    <string name="weather_038">A noite está bem fria, e isso é intensificado pelos ventos que passam remexendo forte nas árvores, e levando consigo suas folhas mais frágeis. O céu está limpo.</string>
-    <string name="weather_039">Está uma noite fria, os ventos que passam deixam seu sinal ao chacoalhar os galhos das árvores e fazer o som de que estão passando. O céu está sem nuvens.</string>
-    <string name="weather_040">A noite está boa, apesar dos ventos médios que incomodam um pouco. O céu está limpo, exceto por algumas nuvens.</string>
-    <string name="weather_041">A noite está quente, e ao olhar para o céu, não se encontra nuvens. Os ventos carregam folhas e areia consigo.</string>
-    <string name="weather_042">A noite está muito quente. O céu não dá sinais de que vai chover, e o vento parece ser o principal alivio para reduzir a temperatura corporal. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
+    <string name="weather_036">Está uma noite congelante, e a pele ressecada pela temperatura é machucada pelos ventos constantes. A neve fraca que cai se remexe no ar com os ventos. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_037">A noite está bem gelada, e uma neve cai levemente do céu, sendo levada pelos ventos gélidos que chegam a machucar a pele.</string>
+    <string name="weather_038">A noite está bem fria, e isso é intensificado pelos ventos que passam remexendo forte nas árvores, e levando consigo suas folhas mais frágeis, que se unem com os flocos de neve que precipitam.</string>
+    <string name="weather_039">Está uma noite fria, os ventos estão meio fortes, e a chuva leve parece ser intensificada por isso.</string>
+    <string name="weather_040">A noite está boa, apesar dos ventos médios que incomodam um pouco. Uma chuva leve cai constante.</string>
+    <string name="weather_041">A noite está quente, e uma leve chuva cai constante. Os ventos levam folhas e as gotas da chuva consigo.</string>
+    <string name="weather_042">A noite está muito quente e uma leve e abafada chuva cai, sendo levada pelos ventos que ficaram mais fortes. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
     <!--Heavy Winds-->
     <string name="weather_043">Está uma noite congelante, e a pele ressecada pela temperatura é torturada pelos ventos cortantes que se mantém constante. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
     <string name="weather_044">A noite está muito fria e os ventos cortantes tornam a sensação de caminhar por ela ainda pior. O céu não possui nuvens, e não está nevando, mas os ventos e a temperatura sozinhos já são grandes problemas.</string>
@@ -62,150 +62,160 @@
     <string name="weather_048">A noite está quente, e ao olhar para o céu, não se encontra nuvens. Os ventos fortes trazem consigo um mormaço de ar quente, e passam destruíndo algumas coisas, como as árvores mais fracas.</string>
     <string name="weather_049">A noite está muito quente. O céu não oferece sinais de que vai chover, e os fortes ventos que passam quebrando algumas árvores parecem ser o principal alivio para reduzir a temperatura corporal. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
     <!--Storm Winds-->
-    <string name="weather_050">A noite está horrível, a pele resseca a cada segundo pela temperatura e os pulmões machucados por respirar não são o único problema. Os ventos fortes quase impedem um humano comum de se locomover, tanto é a sua força. Pessoas pequenas podem ser arrastadas pelos ventos, assim como algumas pedras ou partes de construções. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
-    <string name="weather_051">023</string>
-    <string name="weather_052">024</string>
-    <string name="weather_053">025</string>
-    <string name="weather_054">026</string>
-    <string name="weather_055">027</string>
-    <string name="weather_056">028</string>
+    <string name="weather_050">A noite está horrível, a pele resseca a cada segundo pela temperatura e a neve que cai, sendo levada pelos ventos fortes, parecem queimar. Pessoas pequenas podem ser arrastadas pelos ventos, assim como algumas pedras ou partes de construções. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+
+
+    <!--                                 DESCRIÇÕES NÃO TÃO DETALHADAS A PARTIR DAQUI                                     -->
+    <!--                                 DESCRIÇÕES NÃO TÃO DETALHADAS A PARTIR DAQUI                                     -->
+    <!--                                 DESCRIÇÕES NÃO TÃO DETALHADAS A PARTIR DAQUI                                     -->
+    <!--                                 DESCRIÇÕES NÃO TÃO DETALHADAS A PARTIR DAQUI                                     -->
+    <!--                                 DESCRIÇÕES NÃO TÃO DETALHADAS A PARTIR DAQUI                                     -->
+    <!--                                 DESCRIÇÕES NÃO TÃO DETALHADAS A PARTIR DAQUI                                     -->
+
+
+    <string name="weather_051">A noite está muito fria. Está nevando um pouco. Os ventos estão extremamente fortes.</string>
+    <string name="weather_052">A noite está bem fria. Está chovendo um pouco. Os ventos estão extremamente fortes.</string>
+    <string name="weather_053">A noite está fria. Está chovendo um pouco. Os ventos estão extremamente fortes.</string>
+    <string name="weather_054">A noite está com clima ameno. Está chovendo um pouco. Os ventos estão extremamente fortes.</string>
+    <string name="weather_055">A noite está quente. Está chovendo um pouco. Os ventos estão extremamente fortes.</string>
+    <string name="weather_056">A noite está muito quente. Está chovendo um pouco. Os ventos estão extremamente fortes.</string>
 
     <!--Heavy Rain-->
     <!--Light Winds-->
-    <string name="weather_057">Está uma noite congelante, o fato do vento estar leve, e de não estar nevando não torna menos desagradável a dor da queimação pelo frio extremo. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida. O céu está limpo e consegue observar as estrelas sem dificuldades.</string>
-    <string name="weather_058">A noite está bem gelada, o céu está limpo e pode-se observar as estrelas sem dificuldades. Ainda assim, o vento leve que passa é o suficiente para machucar a pele em uma temperatura tão baixa.</string>
-    <string name="weather_059">A noite está bem fria, mas o céu limpo e a falta de vento ajuda a não ficar tão desconfortável estar aqui.</string>
-    <string name="weather_060">A noite está fria, mas em um nível agradável quando se está agasalhado. O céu está limpo e o vento passa de leve, sem trazer problemas.</string>
-    <string name="weather_061">A noite está agradável. O céu está limpo e o vento leve torna tudo muito bom.</string>
-    <string name="weather_062">A noite está quente. O céu não dá sinais de que vai chover tão já, e a falta de vento torna o ambiente ainda mais abafado e quente.</string>
-    <string name="weather_063">A noite está muito quente. O céu não dá sinais de que vai chover tão já, e a falta de vento torna o ambiente levemente complicado para respirar, usar roupas inadequadas podem levar você a desmaiar de calor.</string>
+    <string name="weather_057">A noite está congelante. Está nevando bastante. Os ventos estão bem leves. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_058">A noite está muito fria. Está nevando bastante. Os ventos estão bem leves.</string>
+    <string name="weather_059">A noite está bem fria. Está caindo uma chuva forte. Os ventos estão bem leves.</string>
+    <string name="weather_060">A noite está fria. Está caindo uma chuva forte. Os ventos estão bem leves.</string>
+    <string name="weather_061">A noite está com clima ameno. Está caindo uma chuva forte. Os ventos estão bem leves.</string>
+    <string name="weather_062">A noite está quente. Está caindo uma chuva forte. Os ventos estão bem leves.</string>
+    <string name="weather_063">A noite está muito quente. Está caindo uma chuva forte. Os ventos estão bem leves.</string>
     <!--Medium Winds-->
-    <string name="weather_064">Está uma noite congelante, e a pele ressecada pela temperatura é machucada pelos ventos constantes. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
-    <string name="weather_065">A noite está bem gelada, o céu está limpo e pode-se observar as estrelas sem dificuldades. Os ventos que passam deixam uma sensação de queimadura em uma temperatura tão baixa.</string>
-    <string name="weather_066">A noite está bem fria, e isso é intensificado pelos ventos que passam remexendo forte nas árvores, e levando consigo suas folhas mais frágeis. O céu está limpo.</string>
-    <string name="weather_067">Está uma noite fria, os ventos que passam deixam seu sinal ao chacoalhar os galhos das árvores e fazer o som de que estão passando. O céu está sem nuvens.</string>
-    <string name="weather_068">A noite está boa, apesar dos ventos médios que incomodam um pouco. O céu está limpo, exceto por algumas nuvens.</string>
-    <string name="weather_069">A noite está quente, e ao olhar para o céu, não se encontra nuvens. Os ventos carregam folhas e areia consigo.</string>
-    <string name="weather_070">A noite está muito quente. O céu não dá sinais de que vai chover, e o vento parece ser o principal alivio para reduzir a temperatura corporal. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
+    <string name="weather_064">A noite está congelante. Está nevando bastante. Os ventos estão médios. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_065">A noite está muito fria. Está nevando bastante. Os ventos estão médios.</string>
+    <string name="weather_066">A noite está bem fria. Está caindo uma chuva forte. Os ventos estão médios.</string>
+    <string name="weather_067">A noite está fria. Está caindo uma chuva forte. Os ventos estão médios.</string>
+    <string name="weather_068">A noite está com clima ameno. Está caindo uma chuva forte. Os ventos estão médios.</string>
+    <string name="weather_069">A noite está quente. Está caindo uma chuva forte. Os ventos estão médios.</string>
+    <string name="weather_070">A noite está muito quente. Está caindo uma chuva forte. Os ventos estão médios. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
     <!--Heavy Winds-->
-    <string name="weather_071">Está uma noite congelante, e a pele ressecada pela temperatura é torturada pelos ventos cortantes que se mantém constante. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
-    <string name="weather_072">A noite está muito fria e os ventos cortantes tornam a sensação de caminhar por ela ainda pior. O céu não possui nuvens, e não está nevando, mas os ventos e a temperatura sozinhos já são grandes problemas.</string>
-    <string name="weather_073">A noite está bem fria, e isso é intensificado pelos ventos fortes que passam levando sedimentos pelo ar. As poucas nuvens formam e se desmancham pelo céu em minutos.</string>
-    <string name="weather_074">Está uma noite fria, os ventos fortes teriam capacidade de derrubar algumas árvores mais fracas. O céu está sem nuvens.</string>
-    <string name="weather_075">A noite está boa, apesar dos ventos fortes que incomodam, os ventos estão fortes o suficiente para quebrarem algumas árvores mais fracas. O céu está limpo, exceto por algumas nuvens.</string>
-    <string name="weather_076">A noite está quente, e ao olhar para o céu, não se encontra nuvens. Os ventos fortes trazem consigo um mormaço de ar quente, e passam destruíndo algumas coisas, como as árvores mais fracas.</string>
-    <string name="weather_077">A noite está muito quente. O céu não oferece sinais de que vai chover, e os fortes ventos que passam quebrando algumas árvores parecem ser o principal alivio para reduzir a temperatura corporal. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
+    <string name="weather_071">A noite está congelante. Está nevando bastante. Os ventos estão bem fortes. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_072">A noite está muito fria. Está nevando bastante. Os ventos estão bem fortes.</string>
+    <string name="weather_073">A noite está bem fria. Está caindo uma chuva forte. Os ventos estão bem fortes.</string>
+    <string name="weather_074">A noite está fria. Está caindo uma chuva forte. Os ventos estão bem fortes.</string>
+    <string name="weather_075">A noite está com clima ameno. Está caindo uma chuva forte. Os ventos estão bem fortes.</string>
+    <string name="weather_076">A noite está quente. Está caindo uma chuva forte. Os ventos estão bem fortes.</string>
+    <string name="weather_077">A noite está muito quente. Está caindo uma chuva forte. Os ventos estão bem fortes. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
     <!--Storm Winds-->
-    <string name="weather_078">A noite está horrível, a pele resseca a cada segundo pela temperatura e os pulmões machucados por respirar não são o único problema. Os ventos fortes quase impedem um humano comum de se locomover, tanto é a sua força. Pessoas pequenas podem ser arrastadas pelos ventos, assim como algumas pedras ou partes de construções. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
-    <string name="weather_079">023</string>
-    <string name="weather_080">024</string>
-    <string name="weather_081">025</string>
-    <string name="weather_082">026</string>
-    <string name="weather_083">027</string>
-    <string name="weather_084">028</string>
+    <string name="weather_078">A noite está congelante. Está nevando bastante. Os ventos estão extremamente fortes. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_079">A noite está muito fria. Está nevando bastante. Os ventos estão extremamente fortes.</string>
+    <string name="weather_080">A noite está bem fria. Está caindo uma chuva forte. Os ventos estão extremamente fortes.</string>
+    <string name="weather_081">A noite está fria. Está caindo uma chuva forte. Os ventos estão extremamente fortes.</string>
+    <string name="weather_082">A noite está com clima ameno. Está caindo uma chuva forte. Os ventos estão extremamente fortes.</string>
+    <string name="weather_083">A noite está quente. Está caindo uma chuva forte. Os ventos estão extremamente fortes.</string>
+    <string name="weather_084">A noite está muito quente. Está caindo uma chuva forte. Os ventos estão extremamente fortes. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
+
+
 
     <!--Day-->
     <!--No Rain-->
     <!--Light Winds-->
-    <string name="weather_085">Está uma noite congelante, o fato do vento estar leve, e de não estar nevando não torna menos desagradável a dor da queimação pelo frio extremo. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida. O céu está limpo e consegue observar as estrelas sem dificuldades.</string>
-    <string name="weather_086">A noite está bem gelada, o céu está limpo e pode-se observar as estrelas sem dificuldades. Ainda assim, o vento leve que passa é o suficiente para machucar a pele em uma temperatura tão baixa.</string>
-    <string name="weather_087">A noite está bem fria, mas o céu limpo e a falta de vento ajuda a não ficar tão desconfortável estar aqui.</string>
-    <string name="weather_088">A noite está fria, mas em um nível agradável quando se está agasalhado. O céu está limpo e o vento passa de leve, sem trazer problemas.</string>
-    <string name="weather_089">A noite está agradável. O céu está limpo e o vento leve torna tudo muito bom.</string>
-    <string name="weather_090">A noite está quente. O céu não dá sinais de que vai chover tão já, e a falta de vento torna o ambiente ainda mais abafado e quente.</string>
-    <string name="weather_091">A noite está muito quente. O céu não dá sinais de que vai chover tão já, e a falta de vento torna o ambiente levemente complicado para respirar, usar roupas inadequadas podem levar você a desmaiar de calor.</string>
+    <string name="weather_085">O dia está congelante. O céu está limpo. Os ventos estão bem leves. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_086">O dia está muito frio. O céu está limpo. Os ventos estão bem leves.</string>
+    <string name="weather_087">O dia está bem frio. O céu está limpo. Os ventos estão bem leves.</string>
+    <string name="weather_088">O dia está frio. O céu está limpo. Os ventos estão bem leves.</string>
+    <string name="weather_089">O dia está com clima ameno. O céu está limpo. Os ventos estão bem leves.</string>
+    <string name="weather_090">O dia está quente. O céu está limpo. Os ventos estão bem leves.</string>
+    <string name="weather_091">O dia está muito quente. O céu está limpo. Os ventos estão bem leves. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
     <!--Medium Winds-->
-    <string name="weather_092">Está uma noite congelante, e a pele ressecada pela temperatura é machucada pelos ventos constantes. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
-    <string name="weather_093">A noite está bem gelada, o céu está limpo e pode-se observar as estrelas sem dificuldades. Os ventos que passam deixam uma sensação de queimadura em uma temperatura tão baixa.</string>
-    <string name="weather_094">A noite está bem fria, e isso é intensificado pelos ventos que passam remexendo forte nas árvores, e levando consigo suas folhas mais frágeis. O céu está limpo.</string>
-    <string name="weather_095">Está uma noite fria, os ventos que passam deixam seu sinal ao chacoalhar os galhos das árvores e fazer o som de que estão passando. O céu está sem nuvens.</string>
-    <string name="weather_096">A noite está boa, apesar dos ventos médios que incomodam um pouco. O céu está limpo, exceto por algumas nuvens.</string>
-    <string name="weather_097">A noite está quente, e ao olhar para o céu, não se encontra nuvens. Os ventos carregam folhas e areia consigo.</string>
-    <string name="weather_098">A noite está muito quente. O céu não dá sinais de que vai chover, e o vento parece ser o principal alivio para reduzir a temperatura corporal. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
+    <string name="weather_093">O dia está congelante. O céu está limpo. Os ventos estão médios. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_094">O dia está bem frio. O céu está limpo. Os ventos estão médios.</string>
+    <string name="weather_095">O dia está frio. O céu está limpo. Os ventos estão médios.</string>
+    <string name="weather_096">O dia está com clima ameno. O céu está limpo. Os ventos estão médios.</string>
+    <string name="weather_097">O dia está quente. O céu está limpo. Os ventos estão médios.</string>
+    <string name="weather_098">O dia está muito quente. O céu está limpo. Os ventos estão médios. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
     <!--Heavy Winds-->
-    <string name="weather_099">Está uma noite congelante, e a pele ressecada pela temperatura é torturada pelos ventos cortantes que se mantém constante. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
-    <string name="weather_100">A noite está muito fria e os ventos cortantes tornam a sensação de caminhar por ela ainda pior. O céu não possui nuvens, e não está nevando, mas os ventos e a temperatura sozinhos já são grandes problemas.</string>
-    <string name="weather_101">A noite está bem fria, e isso é intensificado pelos ventos fortes que passam levando sedimentos pelo ar. As poucas nuvens formam e se desmancham pelo céu em minutos.</string>
-    <string name="weather_102">Está uma noite fria, os ventos fortes teriam capacidade de derrubar algumas árvores mais fracas. O céu está sem nuvens.</string>
-    <string name="weather_103">A noite está boa, apesar dos ventos fortes que incomodam, os ventos estão fortes o suficiente para quebrarem algumas árvores mais fracas. O céu está limpo, exceto por algumas nuvens.</string>
-    <string name="weather_104">A noite está quente, e ao olhar para o céu, não se encontra nuvens. Os ventos fortes trazem consigo um mormaço de ar quente, e passam destruíndo algumas coisas, como as árvores mais fracas.</string>
-    <string name="weather_105">A noite está muito quente. O céu não oferece sinais de que vai chover, e os fortes ventos que passam quebrando algumas árvores parecem ser o principal alivio para reduzir a temperatura corporal. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
+    <string name="weather_099">O dia está congelante. O céu está limpo. Os ventos estão bem fortes. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_100">O dia está muito frio. O céu está limpo. Os ventos estão bem fortes.</string>
+    <string name="weather_101">O dia está bem frio. O céu está limpo. Os ventos estão bem fortes.</string>
+    <string name="weather_102">O dia está frio. O céu está limpo. Os ventos estão bem fortes.</string>
+    <string name="weather_103">O dia está com clima ameno. O céu está limpo. Os ventos estão bem fortes.</string>
+    <string name="weather_104">O dia está quente. O céu está limpo. Os ventos estão bem fortes.</string>
+    <string name="weather_105">O dia está muito quente. O céu está limpo. Os ventos estão bem fortes. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
     <!--Storm Winds-->
-    <string name="weather_106">A noite está horrível, a pele resseca a cada segundo pela temperatura e os pulmões machucados por respirar não são o único problema. Os ventos fortes quase impedem um humano comum de se locomover, tanto é a sua força. Pessoas pequenas podem ser arrastadas pelos ventos, assim como algumas pedras ou partes de construções. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
-    <string name="weather_107">023</string>
-    <string name="weather_108">024</string>
-    <string name="weather_109">025</string>
-    <string name="weather_110">026</string>
-    <string name="weather_111">027</string>
-    <string name="weather_112">028</string>
+    <string name="weather_106">O dia está congelante. O céu está limpo. Os ventos estão extremamente fortes. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_107">O dia está muito frio. O céu está limpo. Os ventos estão extremamente fortes.</string>
+    <string name="weather_108">O dia está bem frio. O céu está limpo. Os ventos estão extremamente fortes.</string>
+    <string name="weather_109">O dia está frio. O céu está limpo. Os ventos estão extremamente fortes.</string>
+    <string name="weather_110">O dia está com clima ameno. O céu está limpo. Os ventos estão extremamente fortes.</string>
+    <string name="weather_111">O dia está quente. O céu está limpo. Os ventos estão extremamente fortes.</string>
+    <string name="weather_112">O dia está muito quente. O céu está limpo. Os ventos estão extremamente fortes. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
 
     <!--Light Rain-->
     <!--Light Winds-->
-    <string name="weather_113">Está uma noite congelante, o fato do vento estar leve, e de não estar nevando não torna menos desagradável a dor da queimação pelo frio extremo. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida. O céu está limpo e consegue observar as estrelas sem dificuldades.</string>
-    <string name="weather_114">A noite está bem gelada, o céu está limpo e pode-se observar as estrelas sem dificuldades. Ainda assim, o vento leve que passa é o suficiente para machucar a pele em uma temperatura tão baixa.</string>
-    <string name="weather_115">A noite está bem fria, mas o céu limpo e a falta de vento ajuda a não ficar tão desconfortável estar aqui.</string>
-    <string name="weather_116">A noite está fria, mas em um nível agradável quando se está agasalhado. O céu está limpo e o vento passa de leve, sem trazer problemas.</string>
-    <string name="weather_117">A noite está agradável. O céu está limpo e o vento leve torna tudo muito bom.</string>
-    <string name="weather_118">A noite está quente. O céu não dá sinais de que vai chover tão já, e a falta de vento torna o ambiente ainda mais abafado e quente.</string>
-    <string name="weather_119">A noite está muito quente. O céu não dá sinais de que vai chover tão já, e a falta de vento torna o ambiente levemente complicado para respirar, usar roupas inadequadas podem levar você a desmaiar de calor.</string>
+    <string name="weather_113">O dia está congelante. Está nevando um pouco. Os ventos estão bem leves. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_114">O dia está muito frio. Está nevando um pouco. Os ventos estão bem leves.</string>
+    <string name="weather_115">O dia está bem frio. Está chovendo um pouco. Os ventos estão bem leves.</string>
+    <string name="weather_116">O dia está frio. Está chovendo um pouco. Os ventos estão bem leves.</string>
+    <string name="weather_117">O dia está com clima ameno. Está chovendo um pouco. Os ventos estão bem leves.</string>
+    <string name="weather_118">O dia está quente. Está chovendo um pouco. Os ventos estão bem leves.</string>
+    <string name="weather_119">O dia está muito quente. Está chovendo um pouco. Os ventos estão bem leves. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
     <!--Medium Winds-->
-    <string name="weather_120">Está uma noite congelante, e a pele ressecada pela temperatura é machucada pelos ventos constantes. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
-    <string name="weather_121">A noite está bem gelada, o céu está limpo e pode-se observar as estrelas sem dificuldades. Os ventos que passam deixam uma sensação de queimadura em uma temperatura tão baixa.</string>
-    <string name="weather_122">A noite está bem fria, e isso é intensificado pelos ventos que passam remexendo forte nas árvores, e levando consigo suas folhas mais frágeis. O céu está limpo.</string>
-    <string name="weather_123">Está uma noite fria, os ventos que passam deixam seu sinal ao chacoalhar os galhos das árvores e fazer o som de que estão passando. O céu está sem nuvens.</string>
-    <string name="weather_124">A noite está boa, apesar dos ventos médios que incomodam um pouco. O céu está limpo, exceto por algumas nuvens.</string>
-    <string name="weather_125">A noite está quente, e ao olhar para o céu, não se encontra nuvens. Os ventos carregam folhas e areia consigo.</string>
-    <string name="weather_126">A noite está muito quente. O céu não dá sinais de que vai chover, e o vento parece ser o principal alivio para reduzir a temperatura corporal. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
+    <string name="weather_120">O dia está congelante. Está nevando um pouco. Os ventos estão médios. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_121">O dia está muito frio. Está nevando um pouco. Os ventos estão médios.</string>
+    <string name="weather_122">O dia está bem frio. Está chovendo um pouco. Os ventos estão médios.</string>
+    <string name="weather_123">O dia está frio. Está chovendo um pouco. Os ventos estão médios.</string>
+    <string name="weather_124">O dia está com clima ameno. Está chovendo um pouco. Os ventos estão médios.</string>
+    <string name="weather_125">O dia está quente. Está chovendo um pouco. Os ventos estão médios.</string>
+    <string name="weather_126">O dia está muito quente. Está chovendo um pouco. Os ventos estão médios. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
     <!--Heavy Winds-->
-    <string name="weather_127">Está uma noite congelante, e a pele ressecada pela temperatura é torturada pelos ventos cortantes que se mantém constante. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
-    <string name="weather_128">A noite está muito fria e os ventos cortantes tornam a sensação de caminhar por ela ainda pior. O céu não possui nuvens, e não está nevando, mas os ventos e a temperatura sozinhos já são grandes problemas.</string>
-    <string name="weather_129">A noite está bem fria, e isso é intensificado pelos ventos fortes que passam levando sedimentos pelo ar. As poucas nuvens formam e se desmancham pelo céu em minutos.</string>
-    <string name="weather_130">Está uma noite fria, os ventos fortes teriam capacidade de derrubar algumas árvores mais fracas. O céu está sem nuvens.</string>
-    <string name="weather_131">A noite está boa, apesar dos ventos fortes que incomodam, os ventos estão fortes o suficiente para quebrarem algumas árvores mais fracas. O céu está limpo, exceto por algumas nuvens.</string>
-    <string name="weather_132">A noite está quente, e ao olhar para o céu, não se encontra nuvens. Os ventos fortes trazem consigo um mormaço de ar quente, e passam destruíndo algumas coisas, como as árvores mais fracas.</string>
-    <string name="weather_133">A noite está muito quente. O céu não oferece sinais de que vai chover, e os fortes ventos que passam quebrando algumas árvores parecem ser o principal alivio para reduzir a temperatura corporal. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
+    <string name="weather_127">O dia está congelante. Está nevando um pouco. Os ventos estão bem fortes. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_128">O dia está muito frio. Está nevando um pouco. Os ventos estão bem fortes.</string>
+    <string name="weather_129">O dia está bem frio. Está chovendo um pouco. Os ventos estão bem fortes.</string>
+    <string name="weather_130">O dia está frio. Está chovendo um pouco. Os ventos estão bem fortes.</string>
+    <string name="weather_131">O dia está com clima ameno. Está chovendo um pouco. Os ventos estão bem fortes.</string>
+    <string name="weather_132">O dia está quente. Está chovendo um pouco. Os ventos estão bem fortes.</string>
+    <string name="weather_133">O dia está muito quente. Está chovendo um pouco. Os ventos estão bem fortes. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
     <!--Storm Winds-->
-    <string name="weather_134">A noite está horrível, a pele resseca a cada segundo pela temperatura e os pulmões machucados por respirar não são o único problema. Os ventos fortes quase impedem um humano comum de se locomover, tanto é a sua força. Pessoas pequenas podem ser arrastadas pelos ventos, assim como algumas pedras ou partes de construções. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
-    <string name="weather_135">023</string>
-    <string name="weather_136">024</string>
-    <string name="weather_137">025</string>
-    <string name="weather_138">026</string>
-    <string name="weather_139">027</string>
-    <string name="weather_140">028</string>
+    <string name="weather_134">O dia está congelante. Está nevando um pouco. Os ventos estão extremamente fortes. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_135">O dia está muito frio. Está nevando um pouco. Os ventos estão extremamente fortes.</string>
+    <string name="weather_136">O dia está bem frio. Está chovendo um pouco. Os ventos estão extremamente fortes.</string>
+    <string name="weather_137">O dia está frio. Está chovendo um pouco. Os ventos estão extremamente fortes.</string>
+    <string name="weather_138">O dia está com clima ameno. Está chovendo um pouco. Os ventos estão extremamente fortes.</string>
+    <string name="weather_139">O dia está quente. Está chovendo um pouco. Os ventos estão extremamente fortes.</string>
+    <string name="weather_140">O dia está muito quente. Está chovendo um pouco. Os ventos estão extremamente fortes. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
 
     <!--Heavy Rain-->
     <!--Light Winds-->
-    <string name="weather_141">Está uma noite congelante, o fato do vento estar leve, e de não estar nevando não torna menos desagradável a dor da queimação pelo frio extremo. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida. O céu está limpo e consegue observar as estrelas sem dificuldades.</string>
-    <string name="weather_142">A noite está bem gelada, o céu está limpo e pode-se observar as estrelas sem dificuldades. Ainda assim, o vento leve que passa é o suficiente para machucar a pele em uma temperatura tão baixa.</string>
-    <string name="weather_143">A noite está bem fria, mas o céu limpo e a falta de vento ajuda a não ficar tão desconfortável estar aqui.</string>
-    <string name="weather_144">A noite está fria, mas em um nível agradável quando se está agasalhado. O céu está limpo e o vento passa de leve, sem trazer problemas.</string>
-    <string name="weather_145">A noite está agradável. O céu está limpo e o vento leve torna tudo muito bom.</string>
-    <string name="weather_146">A noite está quente. O céu não dá sinais de que vai chover tão já, e a falta de vento torna o ambiente ainda mais abafado e quente.</string>
-    <string name="weather_147">A noite está muito quente. O céu não dá sinais de que vai chover tão já, e a falta de vento torna o ambiente levemente complicado para respirar, usar roupas inadequadas podem levar você a desmaiar de calor.</string>
+    <string name="weather_141">O dia está congelante. Está nevando bastante. Os ventos estão bem leves. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_142">O dia está muito frio. Está nevando bastante. Os ventos estão bem leves.</string>
+    <string name="weather_143">O dia está bem frio. Está caindo uma chuva forte. Os ventos estão bem leves.</string>
+    <string name="weather_144">O dia está frio. Está caindo uma chuva forte. Os ventos estão bem leves.</string>
+    <string name="weather_145">O dia está com clima ameno. Está caindo uma chuva forte. Os ventos estão bem leves.</string>
+    <string name="weather_146">O dia está quente. Está caindo uma chuva forte. Os ventos estão bem leves.</string>
+    <string name="weather_147">O dia está muito quente. Está caindo uma chuva forte. Os ventos estão bem leves. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
     <!--Medium Winds-->
-    <string name="weather_148">Está uma noite congelante, e a pele ressecada pela temperatura é machucada pelos ventos constantes. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
-    <string name="weather_149">A noite está bem gelada, o céu está limpo e pode-se observar as estrelas sem dificuldades. Os ventos que passam deixam uma sensação de queimadura em uma temperatura tão baixa.</string>
-    <string name="weather_150">A noite está bem fria, e isso é intensificado pelos ventos que passam remexendo forte nas árvores, e levando consigo suas folhas mais frágeis. O céu está limpo.</string>
-    <string name="weather_151">Está uma noite fria, os ventos que passam deixam seu sinal ao chacoalhar os galhos das árvores e fazer o som de que estão passando. O céu está sem nuvens.</string>
-    <string name="weather_152">A noite está boa, apesar dos ventos médios que incomodam um pouco. O céu está limpo, exceto por algumas nuvens.</string>
-    <string name="weather_153">A noite está quente, e ao olhar para o céu, não se encontra nuvens. Os ventos carregam folhas e areia consigo.</string>
-    <string name="weather_154">A noite está muito quente. O céu não dá sinais de que vai chover, e o vento parece ser o principal alivio para reduzir a temperatura corporal. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
+    <string name="weather_148">O dia está congelante. Está nevando bastante. Os ventos estão médios. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_149">O dia está muito frio. Está nevando bastante. Os ventos estão médios.</string>
+    <string name="weather_150">O dia está bem frio. Está caindo uma chuva forte. Os ventos estão médios.</string>
+    <string name="weather_151">O dia está frio. Está caindo uma chuva forte. Os ventos estão médios.</string>
+    <string name="weather_152">O dia está com clima ameno. Está caindo uma chuva forte. Os ventos estão médios.</string>
+    <string name="weather_153">O dia está quente. Está caindo uma chuva forte. Os ventos estão médios.</string>
+    <string name="weather_154">O dia está muito quente. Está caindo uma chuva forte. Os ventos estão médios. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
     <!--Heavy Winds-->
-    <string name="weather_155">Está uma noite congelante, e a pele ressecada pela temperatura é torturada pelos ventos cortantes que se mantém constante. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
-    <string name="weather_156">A noite está muito fria e os ventos cortantes tornam a sensação de caminhar por ela ainda pior. O céu não possui nuvens, e não está nevando, mas os ventos e a temperatura sozinhos já são grandes problemas.</string>
-    <string name="weather_157">A noite está bem fria, e isso é intensificado pelos ventos fortes que passam levando sedimentos pelo ar. As poucas nuvens formam e se desmancham pelo céu em minutos.</string>
-    <string name="weather_158">Está uma noite fria, os ventos fortes teriam capacidade de derrubar algumas árvores mais fracas. O céu está sem nuvens.</string>
-    <string name="weather_159">A noite está boa, apesar dos ventos fortes que incomodam, os ventos estão fortes o suficiente para quebrarem algumas árvores mais fracas. O céu está limpo, exceto por algumas nuvens.</string>
-    <string name="weather_160">A noite está quente, e ao olhar para o céu, não se encontra nuvens. Os ventos fortes trazem consigo um mormaço de ar quente, e passam destruíndo algumas coisas, como as árvores mais fracas.</string>
-    <string name="weather_161">A noite está muito quente. O céu não oferece sinais de que vai chover, e os fortes ventos que passam quebrando algumas árvores parecem ser o principal alivio para reduzir a temperatura corporal. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
+    <string name="weather_155">O dia está congelante. Está nevando bastante. Os ventos estão bem fortes. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_156">O dia está muito frio. Está nevando bastante. Os ventos estão bem fortes.</string>
+    <string name="weather_157">O dia está bem frio. Está caindo uma chuva forte. Os ventos estão bem fortes.</string>
+    <string name="weather_158">O dia está frio. Está caindo uma chuva forte. Os ventos estão bem fortes.</string>
+    <string name="weather_159">O dia está com clima ameno. Está caindo uma chuva forte. Os ventos estão bem fortes.</string>
+    <string name="weather_160">O dia está quente. Está caindo uma chuva forte. Os ventos estão bem fortes.</string>
+    <string name="weather_161">O dia está muito quente. Está caindo uma chuva forte. Os ventos estão bem fortes. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
     <!--Storm Winds-->
-    <string name="weather_162">A noite está horrível, a pele resseca a cada segundo pela temperatura e os pulmões machucados por respirar não são o único problema. Os ventos fortes quase impedem um humano comum de se locomover, tanto é a sua força. Pessoas pequenas podem ser arrastadas pelos ventos, assim como algumas pedras ou partes de construções. O céu tem poucas nuvens que passam rápido pelo céu. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
-    <string name="weather_163">023</string>
-    <string name="weather_164">024</string>
-    <string name="weather_165">025</string>
-    <string name="weather_166">026</string>
-    <string name="weather_167">027</string>
-    <string name="weather_168">028</string>
-
+    <string name="weather_162">O dia está congelante. Está nevando bastante. Os ventos estão extremamente fortes. A temperatura corporal de um humano deve cair rapidamente e matá-lo em alguns minutos sem a proteção devida.</string>
+    <string name="weather_163">O dia está muito frio. Está nevando bastante. Os ventos estão extremamente fortes.</string>
+    <string name="weather_164">O dia está bem frio. Está caindo uma chuva forte. Os ventos estão extremamente fortes.</string>
+    <string name="weather_165">O dia está frio. Está caindo uma chuva forte. Os ventos estão extremamente fortes.</string>
+    <string name="weather_166">O dia está com clima ameno. Está caindo uma chuva forte. Os ventos estão extremamente fortes.</string>
+    <string name="weather_167">O dia está quente. Está caindo uma chuva forte. Os ventos estão extremamente fortes.</string>
+    <string name="weather_168">O dia está muito quente. Está caindo uma chuva forte. Os ventos estão extremamente fortes. Usar roupas inadequadas podem levar você a desmaiar de calor.</string>
 
 </resources>
